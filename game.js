@@ -130,8 +130,8 @@ const bird = {
   x: 50,
   y: 100,
   speed: 0,
-  gravity: 0.125,
-  thrust: 3.6,
+  gravity: 0.135,
+  thrust: 3.0,
   frame: 0,
   draw: function () {
     let h = this.animations[this.frame].sprite.height;
@@ -334,4 +334,4 @@ function draw() {
   UI.draw();
 }
 
-setInterval(gameLoop, 20);
+setInterval(gameLoop, 15);
